@@ -1,0 +1,8 @@
+a { 
+    color: #ff00f2;
+}
+
+a >  a {
+    color: blue;
+}
+
