@@ -2,7 +2,78 @@ a {
     color: #ff00f2;
 }
 
-a >  a {
-    color: blue;
+p {
+    font-size: 20px;
+    color: #faf9fb;
+    background-color: #c236d2;
+  }
+
+h1 {
+     font-size: 40px;
+  }
+
+h2 {
+     font-size: 30px;
+  }
+
+h3 {
+     font-size: 22px;
+  }
+.text {
+       color: #efeaf1;
+  }
+
+  main > h1 > span {
+    color: rgb(32, 182, 227);
+  }
+
+main > h1:nth-child(1) {
+    display: flex;
+    justify-content: center;
 }
 
+main > section > article > div {
+    border: 2px solid rgb(7, 146, 185)
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+/* .header__image {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50vw;
+}
+
+.birthday {
+    display: flex;
+    justify-content: center;
+}
+
+.order {
+    display: flex;
+    justify-content: center;
+}
+
+.audio {
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
